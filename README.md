@@ -46,3 +46,15 @@ All details about [**installation**](https://monitoror.com/documentation/#instal
 ## Development
 
 See our [development guide](https://monitoror.com/guides/#development)
+
+## To generate the dashboard of gitlab with multiple projects and multple branches
+- Use script to auto generate
+```
+python gen_conf.py
+```
+<p align="center">
+  <a href="Gitlab Demo"> 
+    <img src="demo2.png" alt="" width="70%">
+  </a>
+</p>
+
