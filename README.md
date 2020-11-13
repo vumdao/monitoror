@@ -52,9 +52,5 @@ See our [development guide](https://monitoror.com/guides/#development)
 ```
 python gen_conf.py
 ```
-<p align="center">
-  <a href="Gitlab Demo"> 
-    <img src="demo2.png" alt="" width="70%">
-  </a>
-</p>
+![alt text](https://github.com/vumdao/monitoror/blob/master/demo2.png)
 
