@@ -1,0 +1,52 @@
+{
+   "version":"2.0",
+   "columns":2,
+   "tiles":[
+      {
+         "type":"GROUP",
+         "label":"MyProject - CI Jobs Running",
+         "rowSpan":4,
+         "tiles":[
+            {
+               "type":"GITLAB-PIPELINE",
+               "label":"MyProject",
+               "params":{
+                  "projectId":21808445,
+                  "ref":"master"
+               }
+            },
+            {
+               "type":"GITLAB-PIPELINE",
+               "label":"MyProject",
+               "params":{
+                  "projectId":144,
+                  "ref":"develop"
+               }
+            }
+         ]
+      },
+      {
+         "type":"GROUP",
+         "label":"Serverless - CI Jobs Running",
+         "rowSpan":4,
+         "tiles":[
+            {
+               "type":"GITLAB-PIPELINE",
+               "label":"Serverless",
+               "params":{
+                  "projectId":167,
+                  "ref":"master"
+               }
+            },
+            {
+               "type":"GITLAB-PIPELINE",
+               "label":"Serverless",
+               "params":{
+                  "projectId":167,
+                  "ref":"develop"
+               }
+            }
+         ]
+      }
+   ]
+}

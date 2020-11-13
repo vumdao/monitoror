@@ -1,0 +1,14 @@
+{
+  "version": "2.0",
+  "columns": 1,
+  "tiles": [
+    {
+      "type": "HTTP-RAW",
+      "label": "Github Repo stars",
+      "params": {
+        "url": "https://github.com/vumdao/pelican-resume",
+        "regex": "(\\d+) users starred"
+      }
+    }
+  ]
+}

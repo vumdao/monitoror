@@ -1,0 +1,13 @@
+version: '3.5'
+
+services:
+  monitoror:
+    container_name: monitoror
+    restart: always
+    image: monitoror/monitoror
+    ports:
+      - 8080:8080
+    volumes:
+      - ${PWD}:/monitoror
+    env_file:
+      - monitoror.env
